@@ -1,3 +1,12 @@
+# RAG Demo
+
+本仓库包含两个独立的 PDF 问答实现：
+
+- [Vue + FastAPI 版本](vue-fastapi/README.md)：Vue 3 界面、FastAPI 接口、流式回答。
+- [Streamlit 版本](#ai智能pdf问答工具)：仓库根目录的原有实现。
+
+---
+
 # AI智能PDF问答工具
 
 这是一个基于 Streamlit 的本地 PDF 问答应用。用户可以上传 PDF 文件，输入问题后，程序会读取 PDF 内容、切分文本、构建向量索引，并通过 DeepSeek API 生成面向文档内容的回答。
